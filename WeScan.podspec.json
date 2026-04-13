@@ -21,7 +21,7 @@
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "Sources/WeScan/**/*.{h,m,swift}",
+  "source_files": "WeScan/**/*.{h,m,swift}",
   "resources": "Sources/WeScan/**/*.{strings,png,xcassets,lproj}",
   "swift_version": "5.0"
 }
