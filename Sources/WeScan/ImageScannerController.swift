@@ -196,6 +196,14 @@ public struct ImageScannerResults {
     /// The detected rectangle which was used to generate the `scannedImage`.
     public var detectedRectangle: Quadrilateral
 
+    public var originalImage: UIImage?
+
+    public var scannedImage: UIImage?
+
+    public var enhancedImage: UIImage?
+
+    public var doesUserPreferEnhancedImage: Bool = false
+
     init(
         detectedRectangle: Quadrilateral,
         originalScan: ImageScannerScan,
